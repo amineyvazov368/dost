@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.first{
+    border: 1px solid black;
+    width: 250px;
+    height: 400px;
+    margin: 150px 600px ;
+    border-radius: 10px;
+}
+img{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 22px;
+}
+.third{
+    border: 1 solid gray;
+    margin: 15px 23px ;
+}

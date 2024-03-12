@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+div{
+    border:10px solid purple ;
+    width: 400px ;
+    height: 300px;
+    padding: 20px;
+    background-color: gray;
+    margin:  50px  auto;
+    color: aliceblue;
+   
+}

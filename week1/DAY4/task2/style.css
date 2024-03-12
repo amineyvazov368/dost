@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 50px;
+}
+.first{
+    border: 3px solid red;
+    background-color: bisque;
+    width: 900px;
+    height: 130px;
+    margin: 50px 20px;
+    padding: 20px;
+}
+.second{
+    border: 3px solid blue ;
+    background-color: cadetblue;
+    width: 800px;
+    height: 70px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+}
+.first:hover{
+    background-color: green;
+}
+.second:hover{
+    color: aliceblue;
+}
