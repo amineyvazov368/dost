@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid purple;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: olive;
+    display: flex;
+   
+}
+.box{
+    border: 2px solid  white;
+    width: 170px;
+    height: 120px;
+    background-color: purple;
+    margin: 150px 15px;
+    padding:50px 40px ;
+   
+}
+.box2{
+
+    position: relative;
+ bottom: 100px;
+ right: 100px;
+
+}
+
+h5{
+    color: aliceblue;
+    text-align: center;
+}
