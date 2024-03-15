@@ -35,12 +35,37 @@
     height: 400px;
     width: 250px;
     margin: 50px 30px;
+    position: relative;
     transform: scale(1);
     transition: all .5s ease;
 }
 .qutu:hover{
     transform: scale(0.9);
 }
+
 .icon{
-    border
+    border: 1px solid wheat;
+    height: 110px;
+    width: 110px;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    padding: 25px ;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.headding{
+    border: 1px solid wheat;
+    height: 70px;
+    width: 250px;position: absolute;
+    top: 200px;
+    
+}
+.parag{
+    border: 1px solid wheat;
+    height: 60px;
+    width: 250px;
+    text-align: center;
 }
