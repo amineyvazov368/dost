@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: aqua;
+  font-size: large;
+}
+header nav .container a, header nav .container i {
+  font-size: 30px;
+}
+header nav .container a {
+  color: lightgrey;
+}
+
+.img {
+  height: 700px;
+  padding-top: 200px;
+  background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2602318/images/young-woman-boxer-training-gym-min.jpg);
+}
+.img .col-6 {
+  color: aliceblue;
+  border: 1px solid yellow;
+  height: 400px;
+  border: none;
+}
+.img .col-6 h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.img .col-6 p {
+  font-size: 25px;
+}
+.img .col-6 button {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: orange;
+  color: aliceblue;
+  font-weight: 400;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

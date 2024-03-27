@@ -1,0 +1,5 @@
+let a =Number(prompt("a ededini elave et"))
+let b =Number(prompt("b ededini daxil et"))
+let cemininkubu=parseInt((a+b)**3)
+let kublarincemi=parseInt(a**3+b**3)
+console.log(`${cemininkubu} cemininkubu ${kublarincemi} kublaricemi`)

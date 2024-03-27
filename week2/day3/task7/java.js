@@ -1,0 +1,5 @@
+let miqdar = Number(prompt("miqdari daxil edin"))
+let faiz = Number(prompt("faizi daxil edin"))
+let muddet =Number(prompt("muddeti daxil edin"))
+let umumi = parseInt((miqdar+((miqdar*faiz)/100))/muddet)
+console.log(`${umumi}umumi`)
