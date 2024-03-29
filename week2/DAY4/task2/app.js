@@ -26,7 +26,7 @@
 // let sum=0;
 // for (let i=1; i<100; i++){
 //     sum+=i
-    
+
 // }
 // console.log(sum)
 
@@ -34,7 +34,7 @@
 // let count = 1
 // for(let i=1; i<=eded; i++){
 //   count*=i
-    
+
 // }
 // console.log(count)
 
@@ -52,17 +52,81 @@
 //         console.log("buz")
 
 //     }
-    
-//     console.log(i)
-// }
-let num=(prompt("ededi daxil et"))
-let sum=0
-for (let i=0; i<num.length; i++){
-    sum+=num**3
 
+//     console.log(i)
+//     console.log(i)
+//     console.l
+///
+// let num= [1,2,4,3]
+// let cut=0
+// let tek=0
+// for(let i=0;i<num.length;i++){
+//  if(i%2==0){
+//     cut+=num[i]
+//  }
+//  else{
+//     tek+=num[i]
+//  }
+// }
+// console.log(tek*cut)
+
+
+
+function evenOrodd(params) {
+
+    let num = [1, 2, 5]
+    let hasil = 1
+    let cem = 0
+    for (let i = 0; i < num.length; i++) {
+        hasil *= num[i]
+    }
+    if (hasil % 2 === 0) {
+        for (let index = 0; index < num.length; index++) {
+            cem += num[index]
+
+        }
+        console.log(`Cutdur ${cem}`);
+    }
+    else {
+        console.log(0);
+    }
 }
-if(num==sum){
-    console.log("yes")
-}else {
-console.log("no")
+// evenOrodd()
+function evenOrodd(params){
+    let num = [5, 1, 3, 7]
+    let a = 0
+    for (let i = 0; i < num.length; i++) {
+        a = num[i]
+    }
+    if (a % 2 == 0) {
+        console.log(true);
+    }
+
+    else {
+        console.log(false);
+    }
 }
+// evenOrodd()
+
+// let num=[1,3,5,2,8]
+// let sum=0
+// let or =0
+
+// for(let i=0; i<num.length; i++){
+//     sum+=num[i]
+//     or=sum/num.length
+//     ;
+// }
+// console.log(parseInt(or));
+
+function nember (a,b){
+    return 5+4;
+}
+console.log(nember()); 
+
+
+// const square = function (a ,b) {
+//     return a+b
+//   };
+  
+//   console.log(square(4,5)); 
