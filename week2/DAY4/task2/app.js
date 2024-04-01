@@ -119,10 +119,10 @@ function evenOrodd(params){
 // }
 // console.log(parseInt(or));
 
-function nember (a,b){
-    return 5+4;
-}
-console.log(nember()); 
+// function nember (a,b){
+//     return 5+4;
+// }
+// console.log(nember()); 
 
 
 // const square = function (a ,b) {
@@ -130,3 +130,42 @@ console.log(nember());
 //   };
   
 //   console.log(square(4,5)); 
+function myFunction(params) {
+    let text1="salam necesen yaxsi sen"
+    let text1Arr=text1.split(" ")
+    console.log(text1Arr)
+    let text1Index=text1Arr.indexOf('necesen');
+    console.log(text1Index);
+}
+
+// myFunction();
+
+function name(params) {
+    let soz="yaAllah"
+    let sozs=soz.toLowerCase();
+    console.log(sozs);
+}
+// name();
+function words(params) {
+    let word1="lay"
+    let word2="lay"
+    if (word1.split()===word2.split()) {
+        alert("dogrudur")
+        
+    }else{
+        alert("yalnisdir")
+    }
+//  words();   
+}
+// words();
+
+    // sentence="a salam necesen"
+    //  sentenceArr=sentence.split(" ")
+    // let a=""
+    //  b=" "
+    // for ( i = 0; i< sentenceArr.length; i++) {
+    //     a+=sentenceArr[i].replace(sentenceArr[i][0], sentenceArr[i][0].toUpperCase())+b
+    // }
+    // console.log(a);
+
+let a=("5.5.5.5.5")
