@@ -9,9 +9,13 @@ function Human(name,surname,age,isMale) {
     let fullname=namefristchar.join()
     return fullname
     }
-}let amin=new Human("Amin""Eyvazov",20)
+}let amin=new Human("Amin" "Eyvazov",20)
 console.log(amin.getFullName())
 function Employer(department,experienceYear,salary=0){
     this.department=department;
-    this
+    this.experienceYear=experienceYear;
+    this.salary=salary;
+    this.generateID=function(){
+        this.id=
+    }
 }
