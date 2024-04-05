@@ -1,0 +1,44 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box};
+
+.container{
+    width: 80%
+}
+header{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    column-gap: 30px;
+}
+ul{
+    display: flex;
+    column-gap: 15px;
+    font-size: 18px;
+}
+ul>li{
+    list-style: none; 
+   
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border: 1px solid black;
+    padding: 6px 15px ;
+    border-radius: 6px;
+}
+.count{
+    border: 1px solid black;
+    padding: 1px 8px;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+}
