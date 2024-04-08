@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+   
+    justify-content:center ;
+}
+.row{
+    border: 1px solid red;
+    width: 60%;
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    border: 1px solid;
+    width: 99%;
+    margin: 5px ;
+    border-radius: 10px;
+  padding-left: 7px;
+}
+button{
+    padding: 2px 60px;
+    border: 1px solid;
+    border-radius: 10px}
+    span{
+        display: none;
+    }
+    
+    .active{
+        display: block;
+    }
