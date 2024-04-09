@@ -20,7 +20,7 @@ input{
     border-radius: 10px;
   padding-left: 7px;
 }
-button{
+.add{
     padding: 2px 60px;
     border: 1px solid;
     border-radius: 10px}
@@ -31,3 +31,4 @@ button{
     .active{
         display: block;
     }
+   
