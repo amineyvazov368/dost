@@ -1,0 +1,14 @@
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+.col-lg-3{
+    height: 200px;
+    text-align: left;
+}
+.card-img-top{
+    height: 220px;
+}
+.row-kard{
+    margin-top: 30px;
+}
