@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row{
+    margin-top: 40px;
+}
+.card{
+    height: 550px;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 25px 7px;
+}
+.card-img-top{
+    height: 280px;
+}
