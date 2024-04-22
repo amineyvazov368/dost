@@ -32,6 +32,28 @@
       "trailerURL": "https://www.youtube.com/watch?v=CwXOrWvPBPk&ab_channel=RottenTomatoesClassicTrailers",
       "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
       "id": "2"
+    },
+    {
+      "id": "7",
+      "title": "fghghg",
+      "genre": "animation",
+      "country": "USA",
+      "poster": "https://m.media-amazon.com/images/I/51S092xuYYS._AC_UF894,1000_QL80_.jpg",
+      "director": "sdfsdfsd",
+      "trailerURL": "https://www.youtube.com/watch?v=CwXOrWvPBPk&ab_channel=RottenTomatoesClassicTrailers",
+      "description": "dsasadsa",
+      "ageRestriction": "10"
+    },
+    {
+      "id": "7",
+      "title": "fdwfsda",
+      "genre": "sdfsd",
+      "country": "rgtfdg",
+      "poster": "https://m.media-amazon.com/images/I/51S092xuYYS._AC_UF894,1000_QL80_.jpg",
+      "director": "dfgdf",
+      "trailerURL": "https://www.youtube.com/watch?v=CwXOrWvPBPk&ab_channel=RottenTomatoesClassicTrailers",
+      "description": "g",
+      "ageRestriction": "5"
     }
   ],
   "genres": [
@@ -58,24 +80,35 @@
   ],
   "users": [
     {
-      "id": 1,
-      "email": "amineyvazov0@gmail.com",
-      "user-name": "amin",
-      "password": "amineyvazov0",
-      "confirmpassword": "amineyvazov0",
-      "wishlistItems": [
-        {
-          "id": 1,
-          "movieId": 2
-        }
-      ]
+      "id": "ebb7",
+      "email": "amineyvazov1@gamil.com",
+      "username": "amin",
+      "password": "555",
+      "confirmpassword": "555",
+      "wishlistItems": []
     },
     {
-      "id": "096e",
-      " email": "amineygrwegvazov1@gamil.com",
-      "user-name": "aminn",
-      "password": "123",
-      "confirmpassword": "123",
+      "id": "8e84",
+      "email": "salam@gmail.com",
+      "username": "besQe",
+      "password": "123456",
+      "isAdmin": false,
+      "wishlistItems": []
+    },
+    {
+      "id": "45b4",
+      "email": "gulsen@gmail.com",
+      "username": "Gulsen",
+      "password": "12345",
+      "isAdmin": false,
+      "wishlistItems": []
+    },
+    {
+      "id": "778c",
+      "email": "gunel@gmail.com",
+      "username": "gunel",
+      "password": "12345",
+      "isAdmin": false,
       "wishlistItems": []
     }
   ]

@@ -5,6 +5,7 @@ const registerForm = document.getElementById("register-form");
 const userNameInp = document.getElementById("user-name");
 const userEmailInp = document.getElementById("user-email");
 const userPasswordInp = document.getElementById("user-password");
+const checkInp = document.getElementById("chec-input")
 const userConfirmPassInp = document.getElementById("user-confirm-password");
 registerForm.addEventListener("submit", (e) => {
     e.preventDefault()
@@ -26,6 +27,7 @@ registerForm.addEventListener("submit", (e) => {
                 title: "Oops...",
                 text: "password ve  confirm password beraber olmalidi",
             });
+          
             return
         }
 
@@ -37,19 +39,20 @@ registerForm.addEventListener("submit", (e) => {
             timer: 1500
         }).then(() => {
             post(endpoints.users,
-                {
-                    " email": userEmailInp.value.trim(),
-                    "user-name": userNameInp.value.trim(),
-                    "password": userPasswordInp.value.trim(),
-                    "confirmpassword": userConfirmPassInp.value.trim(),
-                    "wishlistItems": [
-                    ]
+                     {
+                    email: userEmailInp.value.trim(),
+                    username: userNameInp.value.trim(),
+                    password: userPasswordInp.value.trim(),
+                    isAdmin:false,
+                    wishlistItems: []
                 }
+
             )
             userEmailInp.value = ''
             userNameInp.value = ''
             userPasswordInp.value = ''
             userConfirmPassInp.value = ''
+            window.location.replace("login.html")
         })
     })
 

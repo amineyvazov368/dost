@@ -22,7 +22,7 @@ header {
     rgba(198, 61, 61, 1) 48%,
     rgba(244, 0, 0, 1) 100%
   );
-  position: fixed;
+  /* position: fixed; */
   top: 0;
 }
 .wrapper {
