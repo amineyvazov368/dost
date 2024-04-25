@@ -1,0 +1,25 @@
+*{margin: 0px ;
+padding: 0px;
+box-sizing: border-box;}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 100px;
+   align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+button{
+    padding: 5px 15px;
+}
