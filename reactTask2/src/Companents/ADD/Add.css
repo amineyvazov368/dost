@@ -1,0 +1,8 @@
+.add{
+    display: flex;
+    column-gap: 15px;
+    margin: 20px 300px ;
+}
+.add-btn{
+    margin-left: 550px;
+}
