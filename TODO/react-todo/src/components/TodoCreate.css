@@ -1,0 +1,13 @@
+.create input{
+    width: 300px;
+    padding: 7px;
+    border-radius: 7px;
+}
+.create button{
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blue;
+
+}
