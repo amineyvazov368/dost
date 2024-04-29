@@ -1,0 +1,13 @@
+.list{
+    margin-top: 30px;
+    display: flex;
+   width: 300px;
+   justify-content: space-between;
+   margin-left: 470px;
+   border: 1px solid black;
+   padding: 0px 5px;
+}
+
+.delete{
+    padding: 0px 10px;
+}
