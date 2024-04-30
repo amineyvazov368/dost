@@ -1,0 +1,19 @@
+.cardTitle{
+     margin-top: 25px;
+     text-align: center;
+}
+.cardTitle h1{
+    font-weight: 700;
+}
+.box{
+    border: 1px solid black;
+    height: 380px;
+    width: 280px;
+    background-image: url(	https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/14.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.row{
+    
+}

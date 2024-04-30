@@ -1,0 +1,14 @@
+.container{
+    width: 80%;
+}
+.row{
+    display: flex;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
